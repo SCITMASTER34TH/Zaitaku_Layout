@@ -1,3 +1,49 @@
-* {
-    background: red;
+*{
+    left: 0;
+    top: 0;
+    background: #111;
 }
+
+.main-outer{
+    position: fixed;
+    width: 1620px;
+    height: 2160px;
+    background: #242424;
+}
+
+.top-call-button-outer{
+    position: relative;
+    width: 1600px;
+    height: 1000px;
+    background: #353535;
+    background: red;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.middle-hobby-button-outer{
+    position: relative;
+    width: 1600px;
+    height: 900px;
+    background: #353535;
+    background: blue;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bottom-weather-button-outer{
+    position: relative;
+    width: 1600px;
+    height: 220px;
+    background: #353535;
+    background: green;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
