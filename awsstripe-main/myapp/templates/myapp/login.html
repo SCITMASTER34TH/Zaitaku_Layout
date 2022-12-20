@@ -1,0 +1,22 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- <h2>ソーシャルサービスを選択してログイン</h2> -->
+    <h2>サービスを選択してログイン</h2>
+    <ul>
+      <li><a href="{% url 'social:begin' 'google-oauth2' %}">Googleアカウントでログイン</a></li>
+    </ul>
+
+    <ul>
+      <li><a href="/accounts/login/">メールアドレスでログイン</a></li>
+    </ul>
+  
+  
+    <!-- <a href="{% url 'index' %}">戻る</a> -->
+
+</body>
+</html>
