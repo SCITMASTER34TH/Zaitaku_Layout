@@ -62,8 +62,7 @@
     position: relative;
     right: 0;
     width: 200px;
-    color: #fff;
-    
+    color: #fff;    
 }
 
 .icon{
@@ -96,19 +95,63 @@
     text-shadow: 1px 1px 5px #707070;
 }
 
-
-
 .top-right-time-outer{
     position: relative;
     width: 400px;
     height: 140px;
     margin: 0 0 0 2.5px;
     background: #353535;
-    background: mediumspringgreen;
-
     border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
+
+.top-right-time-outer *{
+    background: rgba(35, 35, 35, 0.75);
+}
+
+.top-right-time-outer .top{
+    position: relative;
+    width: 400px;
+    height: 40px;
+    background: yellow;
+    border-radius: 5px 5px 0 0;
+}
+
+.top-right-time-outer .bottom{
+    position: relative;
+    width: 400px;
+    height: 100px;
+    /* background: pink; */
+    margin-top: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+.top-right-time-outer .bottom h5{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-top: 1;
+    font-size: 6em;
+    font-weight: 700;
+    width: 300px;
+    height: 90px;
+    transform: translate(0, -40%);
+    background: none;
+    
+    
+}
+
+/* .top-right-time-outer .time{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    font-size: 5.5em;
+    font-weight: 700;
+    width: 400px;
+    height: 90px;
+    
+} */
 
 
 

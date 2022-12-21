@@ -5,10 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="../../css/home.css">
+  <script src="../../js/realtime_clock.js"></script>
 
   <title>メインメニュー</title>
 </head>
-<body>
+<body onload="realtimeClock()">
  
   <div class="main-outer">
     
@@ -23,7 +24,7 @@
           </div>
 
           <div class="right">
-            <h5 class="city">下田</h5>
+            <h5 class="city">愛媛</h5>
             <h5 class="degree">-30&#176;C</h5>
           </div>
 
@@ -33,7 +34,13 @@
       </div>
       
       <div class="top-right-time-outer">
+        <div class="top">
+
+        </div>
         
+        <div class="bottom">
+          <h5 id="clock"></h5>
+        </div>
       </div>
 
     </div>
