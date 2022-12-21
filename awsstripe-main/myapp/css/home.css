@@ -6,15 +6,15 @@
 
 .main-outer{
     position: fixed;
-    width: 405px;
-    height: 540px;
+    width: 810px;
+    height: 920px;
     background: #242424;
 }
 
 .top-call-button-outer{
     position: relative;
-    width: 400px;
-    height: 250px;
+    width: 800px;
+    height: 420px;
     background: #353535;
     background: red;
     margin: auto;
@@ -25,7 +25,7 @@
 
 .top-call-button-inner{
     position: relative;
-    width: 400px;
+    width: 800px;
     height: 5px;
     border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
@@ -42,8 +42,8 @@
 
 .middle-hobby-button-outer{
     position: relative;
-    width: 400px;
-    height: 225px;
+    width: 800px;
+    height: 400px;
     background: #353535;
     background: blue;
     margin: auto;
@@ -54,8 +54,8 @@
 
 .bottom-weather-button-outer{
     position: relative;
-    width: 400px;
-    height: 45px;
+    width: 800px;
+    height: 80px;
     background: #353535;
     background: green;
     margin: auto;
