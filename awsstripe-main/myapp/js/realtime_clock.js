@@ -12,11 +12,11 @@ function realtimeClock(){
     var week = ["日曜日","月曜日","火曜日","水曜日","木曜日","金曜日","土曜日"];
     var days = [
         "1日","2日","3日","4日","5日","6日","7日","8日","9日","10日",
-        "11日","12日","13日","14日","15日","16日","17日","18日","19日","12日",
+        "11日","12日","13日","14日","15日","16日","17日","18日","19日","20日",
         "21日","22日","23日","24日","25日","26日","27日","28日","29日","30日",
         "31日"];
     var ids = ["month", "daynum", "dayname"];
-    var values = [month[mo], days[dnum], week[dname]];
+    var values = [month[mo], days[dnum-1], week[dname]];
     for(var i = 0; i < ids.length; i++)
     document.getElementById(ids[i]).firstChild.nodeValue = values[i];
 

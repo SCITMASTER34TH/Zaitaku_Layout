@@ -19,26 +19,24 @@
     display: flex;
     width: 800px;
     height: 140px;
-    background: #353535;
-    background: red;
+    background: none;
     margin: auto;
     margin-top: 5px;
     border-radius: 5px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .top-left-weather-outer{
     position: relative;
-    width: 400px;
+    width: 395px;
     height: 140px;
     margin: 0 2.5px 0 0;
-    background: #353535;
+    background: rgba(35, 35, 35, 0.75);
     border-radius: 5px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 .top-left-weather-outer *{
-    background: rgba(35, 35, 35, 0.75);
+    background: rgba(46, 46, 46, 1);
     border-radius: 5px;
 }
 
@@ -48,8 +46,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
-    height: 140px;   
+    width: 395px;
+    height: 140px;
 }
 
 .widget .left{
@@ -100,9 +98,9 @@
     width: 400px;
     height: 140px;
     margin: 0 0 0 2.5px;
-    background: #353535;
+    background: #464646;
     border-radius: 5px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 .top-right-time-outer *{
