@@ -7,7 +7,7 @@
 .main-outer{
     position: fixed;
     width: 810px;
-    height: 960px;
+    height: 1000px;
     background: #242424;
 }
 
@@ -33,6 +33,23 @@
     background: purple;
     border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.widget{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 140px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.widget .left{
+    position: absolute;
+    left: 0;
+    width: 200px;
 }
 
 .top-right-time-outer{
@@ -74,7 +91,7 @@
 .bottom-weather-button-outer{
     position: relative;
     width: 800px;
-    height: 300px;
+    height: 340px;
     background: #353535;
     background: green;
     margin: auto;
