@@ -34,9 +34,9 @@
       <div class="top-right-time-outer">
         <div class="top">
           <div class="date">
-            <span id="dayname">Day</span>
             <span id="month">Month</span>
             <span id="daynum">00</span>
+            <span id="dayname">Day</span>
           </div>
 
 
@@ -64,7 +64,17 @@
       
     </div>
 
-    <div class="bottom-weather-button-outer">
+    <div class="bottom-cancel-subscription-outer">
+      <div class="cancel-form">
+        <form action="{% url 'stop_subscription_session' %}" method="POST">
+          <!-- <input type="hidden" name="subscriptionId" value="{{ subscription_id }}" /> -->
+          <input name="subscriptionId" value="{{ subscription_id }}" />
+          <!-- <input name="orderName" value="{{ order_name }}" /> -->
+          <button class="btn btn-outline-info btn-lg" type="submit">定期利用をキャンセルする</button>
+        </form>
+      </div>
+      
+      
 
     </div>
 

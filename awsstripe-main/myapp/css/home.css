@@ -167,7 +167,7 @@
 .middle-hobby-button-outer{
     position: relative;
     width: 800px;
-    height: 500px;
+    height: 780px;
     background: #353535;
     background: blue;
     margin: auto;
@@ -176,10 +176,10 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-.bottom-weather-button-outer{
+.bottom-cancel-subscription-outer{
     position: relative;
     width: 800px;
-    height: 350px;
+    height: 70px;
     background: #353535;
     background: green;
     margin: auto;
@@ -188,3 +188,39 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
+.bottom-cancel-subscription-outer .cancel-form form{
+    background: #464646;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.bottom-cancel-subscription-outer .cancel-form input,
+.bottom-cancel-subscription-outer .cancel-form button{
+    color: #fff;
+    transform: translate(0, 10%);
+    font-size: 2em;
+    background-color: #222222;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bottom-cancel-subscription-outer .cancel-form input{
+    width: 320px;
+    height: 55px;
+    margin: 0 5px 0 0;
+}
+
+.bottom-cancel-subscription-outer .cancel-form button{
+    width: 440px;
+    height: 57px;
+    margin: 0 0 0 5px;
+}
+
+.bottom-cancel-subscription-outer .cancel-form button:hover{
+    cursor: pointer;
+}
