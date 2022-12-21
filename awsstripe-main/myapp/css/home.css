@@ -7,12 +7,13 @@
 .main-outer{
     position: fixed;
     width: 810px;
-    height: 920px;
+    height: 1020px;
     background: #242424;
 }
 
-.top-call-button-outer{
+.top-weather-time-outer{
     position: relative;
+    display: flex;
     width: 800px;
     height: 140px;
     background: #353535;
@@ -23,27 +24,45 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-.top-call-button-inner{
+.top-left-weather-outer{
     position: relative;
-    width: 800px;
-    height: 5px;
+    width: 400px;
+    height: 140px;
+    margin: 0 2.5px 0 0;
+    background: #353535;
+    background: purple;
     border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-.top-call-button-inner h1{
-    background: yellow;
-    border-radius: 10px;
-    font-size: 2em;
-    align-items: center;
-    justify-content: center;
+.top-right-time-outer{
+    position: relative;
+    width: 400px;
+    height: 140px;
+    margin: 0 0 0 2.5px;
+    background: #353535;
+    background: mediumspringgreen;
+
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 .middle-hobby-button-outer{
     position: relative;
     width: 800px;
-    height: 400px;
+    height: 500px;
     background: #353535;
     background: blue;
     margin: auto;
