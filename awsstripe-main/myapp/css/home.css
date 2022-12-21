@@ -14,7 +14,7 @@
 .top-call-button-outer{
     position: relative;
     width: 800px;
-    height: 420px;
+    height: 140px;
     background: #353535;
     background: red;
     margin: auto;
@@ -55,7 +55,7 @@
 .bottom-weather-button-outer{
     position: relative;
     width: 800px;
-    height: 80px;
+    height: 360px;
     background: #353535;
     background: green;
     margin: auto;
