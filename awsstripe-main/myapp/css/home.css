@@ -7,7 +7,7 @@
 .main-outer{
     position: fixed;
     width: 810px;
-    height: 1020px;
+    height: 960px;
     background: #242424;
 }
 
@@ -74,7 +74,7 @@
 .bottom-weather-button-outer{
     position: relative;
     width: 800px;
-    height: 360px;
+    height: 300px;
     background: #353535;
     background: green;
     margin: auto;
