@@ -247,8 +247,46 @@
 }
 
 
+.bottom-userinfo-loginout-outer .right-top-userinfo .bottom-logout{
+    width: 180px;
+    height: 50px;
+    background: #387f3f;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
 
+.bottom-userinfo-loginout-outer .right-top-userinfo .bottom-logout a{
+    position: relative;
+    color: #fff;
+    font-size: 1.8em;
+    margin-left: 20px;
+    background: #387f3f;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
 
+.bottom-userinfo-loginout-outer .right-top-userinfo .bottom-login{
+    position: fixed;
+    transform: translate(180%, 1717.5%);
+    width: 230px;
+    height: 50px;
+    background: #387f3f;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bottom-userinfo-loginout-outer .right-top-userinfo .bottom-login a{
+    color: #fff;
+    font-size: 1.8em;
+    margin-left: 25px;
+    background: #387f3f;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
 
 
 
