@@ -191,19 +191,17 @@
 .bottom-cancel-subscription-outer .cancel-form {
     position: relative;
     display: flex;
-    width: 600px;
+    
     height: 70px;
 }
 
 .bottom-cancel-subscription-outer .cancel-form form{
     background: #242424;
+    width: 550px;
     height: 70px;
     display: flex;
     text-align: center;
     justify-content: center;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-
 }
 
 .bottom-cancel-subscription-outer .cancel-form input,
@@ -219,14 +217,14 @@
 
 .bottom-cancel-subscription-outer .cancel-form input{
     width: 280px;
-    height: 42px;
+    height: 38px;
     margin: 0 7.5px 0 15px;
-    transform: translate(0, 27.5%);
+    transform: translate(0, 20%);
 }
 
 .bottom-cancel-subscription-outer .cancel-form button{
     background: #387f3f;
-    width: 280px;
+    width: 240px;
     height: 50px;
     margin: 0 15px 0 7.5px;
 }
@@ -253,13 +251,13 @@
     height: 50px;
     text-align: center;
     justify-content: center;
-    transform: translate(5%, 20%);
+    transform: translate(10%, 20%);
     font-size: 1.6em;
     border-style: none;
 }
 
 .bottom-cancel-subscription-outer .subscription-form .subscription-text{
-    width: 200px;
+    width: 180px;
     height: 50px;
     background: #387f3f;
     border-style: none;
