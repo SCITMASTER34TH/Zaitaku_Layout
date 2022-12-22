@@ -197,7 +197,7 @@
 
 .bottom-cancel-subscription-outer .cancel-form form{
     background: #242424;
-    width: 570px;
+    width: 600px;
     height: 70px;
     display: flex;
     text-align: center;
@@ -251,7 +251,7 @@
     height: 50px;
     text-align: center;
     justify-content: center;
-    transform: translate(15%, 20%);
+    transform: translate(5%, 20%);
     font-size: 1.6em;
     font-weight: 700;
     border-style: none;
