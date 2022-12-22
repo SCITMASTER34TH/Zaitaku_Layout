@@ -178,19 +178,27 @@
 
 .bottom-cancel-subscription-outer{
     position: relative;
+    display: flex;
     width: 800px;
     height: 70px;
-    background: #353535;
-    background: green;
+    background: #242424;
     margin: auto;
     margin-top: 5px;
     border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
+.bottom-cancel-subscription-outer .cancel-form {
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 70px;
+}
+
 .bottom-cancel-subscription-outer .cancel-form form{
     background: #242424;
     height: 70px;
+    display: flex;
     text-align: center;
     justify-content: center;
     border-radius: 5px;
@@ -202,7 +210,7 @@
 .bottom-cancel-subscription-outer .cancel-form button{
     color: #fff;
     transform: translate(0, 20%);
-    font-size: 1.6em;
+    font-size: 1.8em;
     background-color: #464646;
     border-style: none;
     border-radius: 5px;
@@ -210,19 +218,63 @@
 }
 
 .bottom-cancel-subscription-outer .cancel-form input{
-    width: 300px;
-    height: 48px;
-    margin: 0 15px 0 0;
+    width: 280px;
+    height: 42px;
+    margin: 0 7.5px 0 15px;
+    transform: translate(0, 27.5%);
 }
 
 .bottom-cancel-subscription-outer .cancel-form button{
-    background-color: #387f3f;
-    
-    width: 400px;
+    background: #387f3f;
+    width: 280px;
     height: 50px;
-    margin: 0 0 0 15px;
+    margin: 0 15px 0 7.5px;
 }
 
 .bottom-cancel-subscription-outer .cancel-form button:hover{
     cursor: pointer;
 }
+
+
+.bottom-cancel-subscription-outer .subscription-form{
+    position: relative;
+    display: flex;
+    width: 200px;
+}
+
+.bottom-cancel-subscription-outer .subscription-form span{
+    display: none;
+}
+
+.bottom-cancel-subscription-outer .subscription-form{
+    position: relative;
+    display: flex;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    transform: translate(5%, 20%);
+    font-size: 1.6em;
+    border-style: none;
+}
+
+.bottom-cancel-subscription-outer .subscription-form .subscription-text{
+    width: 200px;
+    height: 50px;
+    background: #387f3f;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bottom-cancel-subscription-outer .subscription-form .subscription-text a{
+    color: #fff;
+    font-size: 1.2em;
+    background: #387f3f;
+    width: 180px;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
