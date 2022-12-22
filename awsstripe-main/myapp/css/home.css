@@ -186,12 +186,12 @@
 }
 
 .bottom-userinfo-loginout-outer .left-profile img{
-    width: 180px;
+    width: 280px;
     height: 180px;
+    transform: translate(-17%, 0%);
     margin: auto;
     background: #272727;
 }
-
 
 .bottom-userinfo-loginout-outer .right-top-userinfo{
     position: relative;
@@ -254,7 +254,7 @@
 
 .bottom-userinfo-loginout-outer .right-top-userinfo .bottom-login{
     position: fixed;
-    transform: translate(180%, 1718.5%);
+    transform: translate(180%, 1720%);
     width: 230px;
     height: 50px;
     background: #387f3f;
