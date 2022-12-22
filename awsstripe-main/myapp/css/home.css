@@ -167,7 +167,7 @@
 .middle-hobby-button-outer{
     position: relative;
     width: 800px;
-    height: 780px;
+    height: 520px;
     background: #353535;
     background: rgb(205, 110, 91);
     margin: auto;
@@ -175,6 +175,22 @@
     border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
+
+.bottom-userinfo-loginout-outer{
+    position: relative;
+    width: 800px;
+    height: 240px;
+    background: #353535;
+    background: rgb(205, 110, 91);
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+
+
 
 .bottom-cancel-subscription-outer{
     position: relative;
@@ -216,7 +232,7 @@
 }
 
 .bottom-cancel-subscription-outer .cancel-form input{
-    width: 280px;
+    width: 260px;
     height: 36px;
     margin: 0 7.5px 0 15px;
     transform: translate(0, 20%);
@@ -224,7 +240,7 @@
 
 .bottom-cancel-subscription-outer .cancel-form button{
     background: #387f3f;
-    width: 260px;
+    width: 300px;
     height: 50px;
     margin: 0 15px 0 7.5px;
 }
