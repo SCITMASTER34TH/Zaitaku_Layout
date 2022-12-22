@@ -48,24 +48,39 @@
       </div>
 
     </div>
-
-
-
-
-
-
-
-
-
-
     
-
     <div class="middle-hobby-button-outer">
       
     </div>
 
     <div class="bottom-userinfo-loginout-outer">
-      
+      <div class="left-profile">
+        <img src="../../../images/user_profile.png" alt="">
+      </div>
+      <div class="right-top-userinfo">
+        
+        <span>{% if user.is_authenticated %}</span>
+        <div class="top-last-first-name">
+          <p>{{ user.last_name }} {{ user.first_name }}さんがログイン中です</p> 
+        </div>
+        <div class="middle-user-name">
+          <p>{{ user.username }}</p>
+        </div>
+        <div class="bottom-user-email">
+          <p>{{ user.email }}</p> 
+      </div>
+
+        <a href="{% url 'logout' %}">ログアウト</a><br>
+        <span>{% else %}</span>
+        <p>google認証にてログイン</p>
+        <a href="{% url 'login' %}">ログインする</a>
+        <span>{% endif %}</span>
+        
+        
+      </div>
+      <div class="right-bottom-loginout">
+        
+      </div>
     </div>
 
     <div class="bottom-cancel-subscription-outer">
