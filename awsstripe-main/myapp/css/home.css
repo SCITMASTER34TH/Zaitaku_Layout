@@ -197,7 +197,7 @@
 
 .bottom-cancel-subscription-outer .cancel-form form{
     background: #242424;
-    width: 550px;
+    width: 570px;
     height: 70px;
     display: flex;
     text-align: center;
@@ -217,14 +217,14 @@
 
 .bottom-cancel-subscription-outer .cancel-form input{
     width: 280px;
-    height: 38px;
+    height: 36px;
     margin: 0 7.5px 0 15px;
     transform: translate(0, 20%);
 }
 
 .bottom-cancel-subscription-outer .cancel-form button{
     background: #387f3f;
-    width: 240px;
+    width: 260px;
     height: 50px;
     margin: 0 15px 0 7.5px;
 }
@@ -251,8 +251,9 @@
     height: 50px;
     text-align: center;
     justify-content: center;
-    transform: translate(10%, 20%);
+    transform: translate(15%, 20%);
     font-size: 1.6em;
+    font-weight: 700;
     border-style: none;
 }
 
