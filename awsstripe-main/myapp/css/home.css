@@ -169,7 +169,7 @@
     width: 800px;
     height: 780px;
     background: #353535;
-    background: blue;
+    background: rgb(205, 110, 91);
     margin: auto;
     margin-top: 5px;
     border-radius: 5px;
@@ -189,7 +189,7 @@
 }
 
 .bottom-cancel-subscription-outer .cancel-form form{
-    background: #464646;
+    background: #242424;
     height: 70px;
     text-align: center;
     justify-content: center;
@@ -201,24 +201,26 @@
 .bottom-cancel-subscription-outer .cancel-form input,
 .bottom-cancel-subscription-outer .cancel-form button{
     color: #fff;
-    transform: translate(0, 10%);
-    font-size: 2em;
-    background-color: #222222;
+    transform: translate(0, 20%);
+    font-size: 1.6em;
+    background-color: #464646;
     border-style: none;
     border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .bottom-cancel-subscription-outer .cancel-form input{
-    width: 320px;
-    height: 55px;
-    margin: 0 5px 0 0;
+    width: 300px;
+    height: 48px;
+    margin: 0 15px 0 0;
 }
 
 .bottom-cancel-subscription-outer .cancel-form button{
-    width: 440px;
-    height: 57px;
-    margin: 0 0 0 5px;
+    background-color: #387f3f;
+    
+    width: 400px;
+    height: 50px;
+    margin: 0 0 0 15px;
 }
 
 .bottom-cancel-subscription-outer .cancel-form button:hover{
