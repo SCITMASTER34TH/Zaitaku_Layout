@@ -149,27 +149,13 @@
     height: 90px;
     transform: translate(0, -35%);
     background: none;
-    
-    
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .middle-hobby-button-outer{
     position: relative;
     width: 800px;
     height: 575px;
-    background: #353535;
-    background: rgb(205, 110, 91);
+    background: #272727;
     margin: auto;
     margin-top: 5px;
     border-radius: 5px;
@@ -181,7 +167,7 @@
     display: flex;
     width: 800px;
     height: 200px;
-    background: #353535;
+    background: #272727;
     margin: auto;
     margin-top: 5px;
     border-radius: 5px;
@@ -203,7 +189,7 @@
     width: 180px;
     height: 180px;
     margin: auto;
-    background: #353535;
+    background: #272727;
 }
 
 
@@ -212,7 +198,7 @@
     margin-left: 5px;
     width: 595px;
     height: 140px;
-    background: #353535;
+    background: #272727;
     border-radius: 5px;
 }
 
@@ -221,9 +207,8 @@
 }
 
 .bottom-userinfo-loginout-outer .right-top-userinfo p{
-    background: #353535;
+    background: #272727;
 }
-
 
 .bottom-userinfo-loginout-outer .right-top-userinfo .top-last-first-name{
     color: #fff;
@@ -269,7 +254,7 @@
 
 .bottom-userinfo-loginout-outer .right-top-userinfo .bottom-login{
     position: fixed;
-    transform: translate(180%, 1717.5%);
+    transform: translate(180%, 1718.5%);
     width: 230px;
     height: 50px;
     background: #387f3f;
@@ -288,16 +273,12 @@
     justify-content: center;
 }
 
-
-
-
-
 .bottom-cancel-subscription-outer{
     position: relative;
     display: flex;
     width: 800px;
     height: 70px;
-    background: #242424;
+    background: #272727;
     margin: auto;
     margin-top: 5px;
     border-radius: 5px;
@@ -307,12 +288,11 @@
 .bottom-cancel-subscription-outer .cancel-form {
     position: relative;
     display: flex;
-    
     height: 70px;
 }
 
 .bottom-cancel-subscription-outer .cancel-form form{
-    background: #242424;
+    background: #272727;
     width: 600px;
     height: 70px;
     display: flex;
@@ -325,7 +305,7 @@
     color: #fff;
     transform: translate(0, 20%);
     font-size: 1.8em;
-    background-color: #464646;
+    background: #464646;
     border-style: none;
     border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
@@ -347,13 +327,6 @@
 
 .bottom-cancel-subscription-outer .cancel-form button:hover{
     cursor: pointer;
-}
-
-
-.bottom-cancel-subscription-outer .subscription-form{
-    position: relative;
-    display: flex;
-    width: 200px;
 }
 
 .bottom-cancel-subscription-outer .subscription-form span{
