@@ -213,7 +213,6 @@
     width: 595px;
     height: 140px;
     background: #353535;
-    background: red;
     border-radius: 5px;
 }
 
@@ -222,36 +221,33 @@
 }
 
 .bottom-userinfo-loginout-outer .right-top-userinfo p{
-    color: #fff;
-    background: red;
+    background: #353535;
 }
 
 
 .bottom-userinfo-loginout-outer .right-top-userinfo .top-last-first-name{
+    color: #fff;
     font-size: 1.25em;
     font-weight: 700;
 }
 
 .bottom-userinfo-loginout-outer .right-top-userinfo .middle-user-name,
 .bottom-userinfo-loginout-outer .right-top-userinfo .bottom-user-email{
-    color: #555555;
+    color: #cacaca;
     font-size: 0.75em;
     font-weight: 300;
 }
 
-
-
-
-.bottom-userinfo-loginout-outer .right-bottom-loginout{
-    position: fixed;
-    margin-top: 870px;
-    margin-left: 210px;
-    width: 595px;
-    height: 60px;
-    background: #353535;
-    background: blue;
-    border-radius: 5px;
+.bottom-userinfo-loginout-outer .right-top-userinfo .middle-user-name{
+    transform: translate(0, -20%);
 }
+
+.bottom-userinfo-loginout-outer .right-top-userinfo .bottom-user-email{
+    transform: translate(0, -40%);
+}
+
+
+
 
 
 

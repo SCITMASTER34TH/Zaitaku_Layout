@@ -68,19 +68,25 @@
         </div>
         <div class="bottom-user-email">
           <p>{{ user.email }}</p> 
-      </div>
+        </div>
 
-        <a href="{% url 'logout' %}">ログアウト</a><br>
+        <div class="bottom-logout">
+          <a href="{% url 'logout' %}">ログアウト</a>
+        </div>
         <span>{% else %}</span>
-        <p>google認証にてログイン</p>
-        <a href="{% url 'login' %}">ログインする</a>
+        <div class="bottom-login">
+          <a href="{% url 'login' %}">ログインする</a>
+        </div>
         <span>{% endif %}</span>
         
         
-      </div>
-      <div class="right-bottom-loginout">
+        
+        
+        
+        
         
       </div>
+
     </div>
 
     <div class="bottom-cancel-subscription-outer">
