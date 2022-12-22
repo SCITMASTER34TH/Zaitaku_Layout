@@ -49,7 +49,7 @@
 
     </div>
     
-    <div class="middle-hobby-button-outer">
+    <div class="middle-call-list-outer">
       <!-- ユ：{{ sample }}<br> -->
 
       <!-- {% for list in sample %}
@@ -93,6 +93,27 @@
       <br>
       <h1>Line</h1>
       <a href="https://line.me/R/calls">line画面</a> -->
+
+      <span>{% if  subscription_id != 123 %}</span>
+
+        <span>{% for list in sample %}</span>
+          <tr>
+            <td><span>{{ list }}</span></td>
+            <td>
+              <div class="phone-logo">
+                <a href="skype:{{ list.user_skype_id.skype_id }}?call">
+                  <img src="../../../images/phone.png" alt="">
+                </a>
+              </div>
+              <div class="to-call-user">
+                <p>{{ list.first_name }} {{ list.last_name }}に電話する</p>
+              </div>
+            </td>
+          </tr>
+        <span>{% endfor %}</span>
+      
+
+      
       
 
 

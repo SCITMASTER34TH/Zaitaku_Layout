@@ -151,7 +151,7 @@
     background: none;
 }
 
-.middle-hobby-button-outer{
+.middle-call-list-outer{
     position: relative;
     width: 800px;
     height: 575px;
@@ -161,6 +161,42 @@
     border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
+
+.middle-call-list-outer span{
+    display: none;
+}
+
+.middle-call-list-outer .phone-logo{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    margin: auto;
+    overflow: hidden;
+    transform: translate(0%, 10%);
+}
+
+.middle-call-list-outer .phone-logo img{
+    transform: translate(-10%, -10%);
+}
+
+.middle-call-list-outer .to-call-user{
+    color: #fff;
+    background: #272727;
+}
+
+.middle-call-list-outer .to-call-user p{
+    font-size: 2em;
+    font-weight: 500;
+    background: #272727;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    transform: translate(0%, 150%);
+    
+}
+
+
 
 .bottom-userinfo-loginout-outer{
     position: relative;
